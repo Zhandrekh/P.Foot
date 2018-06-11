@@ -2,60 +2,68 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class Hand : MonoBehaviour {
-
+[RequireComponent(typeof(ViveController))]
+public class Hand : MonoBehaviour
+{
     GameObject heldObject;
     ViveController controller;
 
-    Rigidbody simulator;
+    public Valve.VR.EVRButtonId pickUpButton;
+    public Valve.VR.EVRButtonId dropButton;
 
-	void Start () {
-
-        simulator = new GameObject().AddComponent<Rigidbody>();
-        simulator.name = "simulator";
-        simulator.transform.parent = transform.parent;
-
+    void Start()
+    {
         controller = GetComponent<ViveController>();
-	}
-	
-	// Update is called once per frame
-	void Update () {
+    }
 
+    void Update()
+    {
         if (heldObject)
         {
-            simulator.velocity = (transform.position - simulator.position) * 50f;
-
-            if (controller.controller.GetPressUp(Valve.VR.EVRButtonId.k_EButton_Grip))
+            switch (controller.CurrentTouchPosition())
             {
-                heldObject.transform.parent = null;
-                heldObject.GetComponent<Rigidbody>().isKinematic = false;
-                heldObject.GetComponent<Rigidbody>().velocity = simulator.velocity;
-                heldObject.GetComponent<HeldObject>().parent = null;
+                case TouchPosition.Up:
+                    heldObject.transform.localPosition += Vector3.forward * Time.deltaTime;
+                    print("up");
+                    break;
+                case TouchPosition.Down:
+                    heldObject.transform.localPosition -= Vector3.forward * Time.deltaTime;
+                    print("down");
+                    break;
+                case TouchPosition.Left:
+                    heldObject.transform.localPosition -= Vector3.right * Time.deltaTime;
+                    print("left");
+                    break;
+                case TouchPosition.Right:
+                    heldObject.transform.localPosition += Vector3.right * Time.deltaTime;
+                    print("right");
+                    break;
+                default:
+                    print("off");
+                    break;
+            }
+            if ((controller.controller.GetPressUp(pickUpButton) && heldObject.GetComponent<HeldObject>().dropOnRelease) || (controller.controller.GetPressDown(dropButton) && !heldObject.GetComponent<HeldObject>().dropOnRelease))
+            {
+                heldObject.GetComponent<HeldObject>().Drop();
                 heldObject = null;
             }
-            
-
         }
         else
         {
-            if (controller.controller.GetPress(Valve.VR.EVRButtonId.k_EButton_Grip))
+            if (controller.controller.GetPressDown(pickUpButton))
             {
                 Collider[] cols = Physics.OverlapSphere(transform.position, 0.1f);
 
-                foreach(Collider col in cols)
+                foreach (Collider col in cols)
                 {
                     if (heldObject == null && col.GetComponent<HeldObject>() && col.GetComponent<HeldObject>().parent == null)
                     {
                         heldObject = col.gameObject;
-                        heldObject.transform.parent = transform;
-                        heldObject.transform.localPosition = Vector3.zero;
-                        heldObject.transform.localRotation = Quaternion.identity;
-                        heldObject.GetComponent<Rigidbody>().isKinematic = true;
                         heldObject.GetComponent<HeldObject>().parent = controller;
+                        heldObject.GetComponent<HeldObject>().PickUp();
                     }
-                    
                 }
             }
         }
-	}
+    }
 }

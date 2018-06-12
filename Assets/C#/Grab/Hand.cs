@@ -11,6 +11,7 @@ public class Hand : MonoBehaviour
     public Valve.VR.EVRButtonId pickUpButton;
     public Valve.VR.EVRButtonId dropButton;
 
+    int prevCount = 0;
     void Start()
     {
         controller = GetComponent<ViveController>();
@@ -50,9 +51,24 @@ public class Hand : MonoBehaviour
         }
         else
         {
-            if (controller.controller.GetPressDown(pickUpButton))
+            Collider[] cols = Physics.OverlapSphere(transform.position, 0.1f);
+
+            int curCount = 0;
+            foreach(Collider col in cols)
             {
-                Collider[] cols = Physics.OverlapSphere(transform.position, 0.1f);
+                if (heldObject == null && col.GetComponent<HeldObject>() != null && col.GetComponent<HeldObject>().parent == null)
+                {
+                    curCount++;
+                }                                
+            }
+
+            if (curCount != prevCount)
+                controller.controller.TriggerHapticPulse(3999);
+
+            prevCount = curCount;
+
+            if (controller.controller.GetPressDown(pickUpButton))
+            {             
 
                 foreach (Collider col in cols)
                 {

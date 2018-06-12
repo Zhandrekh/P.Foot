@@ -9,7 +9,10 @@ public class HeldObject : MonoBehaviour
     [HideInInspector]
     public ViveController parent;
 
+    public bool canPickUp = true;
     public bool dropOnRelease;
+
+    public float disconnectDistance = 0f;
 
     public UnityEvent pickUp;
 
@@ -31,16 +34,29 @@ public class HeldObject : MonoBehaviour
         if (parent != null)
         {
             simulator.velocity = (parent.transform.position - simulator.position) * 50f;
+
+            if (disconnectDistance > 0f)
+            {
+                if(!GetComponent<Collider>().bounds.Contains(parent.transform.position) &&
+                    Vector3.Distance(GetComponent<Collider>().bounds.ClosestPoint(parent.transform.position), parent.transform.position) > disconnectDistance)
+                {
+                    Drop();
+                }
+            }
         }
     }
 
     public void PickUp()
     {
-        pickUp.Invoke();
-        if (pickUp.GetPersistentEventCount() == 0)
+        if (canPickUp)
         {
-            DefaultPickUp();
-        }
+            pickUp.Invoke();
+            if (pickUp.GetPersistentEventCount() == 0)
+            {
+                DefaultPickUp();
+            }
+            parent.controller.TriggerHapticPulse(3999);
+        }        
     }
 
     public void Drop()
@@ -50,6 +66,8 @@ public class HeldObject : MonoBehaviour
         {
             DefaultDrop();
         }
+        if(parent != null)
+        parent.controller.TriggerHapticPulse(3999);
         parent = null;
     }
 

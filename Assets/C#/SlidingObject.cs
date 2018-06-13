@@ -5,6 +5,7 @@ using UnityEngine.Events;
 
 public class SlidingObject : MonoBehaviour {
 
+    public bool thisIsAButton;
 
     Transform parent;
     public Transform pointA;
@@ -14,8 +15,11 @@ public class SlidingObject : MonoBehaviour {
 
     HeldObject heldObject;
 
-    public UnityEvent HitA;
-    public UnityEvent HitB;
+    [Header("Events")]
+    public UnityEvent Released;
+    public bool callOnce;
+    bool done = false;
+    public UnityEvent Pushed;
 
     
     void Start()
@@ -36,11 +40,21 @@ public class SlidingObject : MonoBehaviour {
 
         if(transform.position == pointA.position)
         {
-            HitA.Invoke();
+            Released.Invoke();
+            done = false;
         }
         else if(transform.position == pointB.position)
         {
-            HitB.Invoke();
+            if (callOnce && !done)
+            {
+                Pushed.Invoke();
+                done = true;
+            }
+            else if (!callOnce)
+            {
+                Pushed.Invoke();
+            }
+            
         }
     }
 
@@ -58,6 +72,21 @@ public class SlidingObject : MonoBehaviour {
         parent = heldObject.simulator.transform;
     }
 
+    private void OnCollisionEnter(Collision collision)
+    {
+        if (collision.gameObject.CompareTag("Controller") && thisIsAButton)
+        {
+            heldObject.parent = collision.gameObject.GetComponent<ViveController>();
+        }
+    }
+
+    private void OnCollisionExit(Collision collision)
+    {
+        if (collision.gameObject.CompareTag("Controller") && thisIsAButton)
+        {
+            heldObject.parent = null;
+        }
+    }
     Vector3 ClosestPointOnLine(Vector3 point)
     {
         Vector3 va = pointA.position + offset;

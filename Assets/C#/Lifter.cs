@@ -13,28 +13,29 @@ public class Lifter : MonoBehaviour {
     public Transform targetDown;
 
     [Header("Lifter Stat")]
-    public float dampedSpeed = 4f;
+    public float dampTime = 4f;
     Vector3 vel;
-    
+
+    Vector3 targetPosition;
+
+    void Start()
+    {
+        targetPosition = transform.position;
+    }
+
+    void Update()
+    {
+        transform.position = Vector3.SmoothDamp(transform.position, targetPosition, ref vel, dampTime);
+    }
+
     public void GoUp()
     {
-        transform.position = Vector3.SmoothDamp(transform.position, targetUp.position, ref vel, dampedSpeed * Time.deltaTime);
+        targetPosition = targetUp.position;
     }    
 
     public void GoDown()
     {
-        transform.position = Vector3.SmoothDamp(transform.position, targetDown.position, ref vel, dampedSpeed * Time.deltaTime);
+        targetPosition = targetDown.position;
     }
 
-    private void OnTriggerStay(Collider other)
-    {
-        if(other.CompareTag("CameraRig"))
-            cameraRig.transform.parent = transform.parent;
-    }
-
-    private void OnTriggerExit(Collider other)
-    {
-        if (other.CompareTag("CameraRig"))
-            cameraRig.transform.parent = null;
-    }
 }

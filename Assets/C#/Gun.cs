@@ -18,9 +18,16 @@ public class Gun : MonoBehaviour {
 
     private void Update()
     {
-        if (heldObject.parent.controller.GetPressDown(Valve.VR.EVRButtonId.k_EButton_Axis1))
+        var parent = heldObject.parent;
+        if (parent != null)
         {
-            Shoot();
+            var controller = parent.controller;
+            var press = controller.GetPressDown(Valve.VR.EVRButtonId.k_EButton_Axis1);
+
+            if (press)
+            {
+                Shoot();
+            }
         }
     }
 

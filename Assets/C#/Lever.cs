@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class Lever : Door {
+public class Lever : MonoBehaviour {
 
 	// Use this for initialization
 	void Start () {

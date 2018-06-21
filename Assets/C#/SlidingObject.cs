@@ -77,6 +77,7 @@ public class SlidingObject : MonoBehaviour {
         if (collision.gameObject.CompareTag("Controller") && thisIsAButton)
         {
             heldObject.parent = collision.gameObject.GetComponent<ViveController>();
+            Debug.Log("Luke IM UR FATHER");
         }
     }
 
@@ -85,6 +86,7 @@ public class SlidingObject : MonoBehaviour {
         if (collision.gameObject.CompareTag("Controller") && thisIsAButton)
         {
             heldObject.parent = null;
+            Debug.Log("NOOOOOOOOOOOOOOOOOOOOOOOO!!!!");
         }
     }
     Vector3 ClosestPointOnLine(Vector3 point)

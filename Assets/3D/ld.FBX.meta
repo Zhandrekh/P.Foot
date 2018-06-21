@@ -1,0 +1,1137 @@
+fileFormatVersion: 2
+guid: b79b7b00a29560b489014c3945c242dc
+timeCreated: 1529496715
+licenseType: Free
+ModelImporter:
+  serializedVersion: 22
+  fileIDToRecycleName:
+    100000: Ascensceur Tube001
+    100002: Ascensceur Tube002
+    100004: Ascensceur Tube003
+    100006: Ascensceur Tube004
+    100008: Ascensceur Tube005
+    100010: Ascensceur Tube006
+    100012: Ascensceur Tube007
+    100014: Ascensceur Tube008
+    100016: Ascensceur Tube009
+    100018: Ascensceur Tube010
+    100020: Ascensceur Tube011
+    100022: Ascensceur Tube012
+    100024: Ascensceur Tube013
+    100026: Ascensceur Tube015
+    100028: Ascensceur Tube016
+    100030: Ascensceur Tube017
+    100032: Ascensceur Tube018
+    100034: Ascensceur Tube019
+    100036: Ascensceur Tube020
+    100038: Ascensceur Tube021
+    100040: Ascensceur Tube022
+    100042: Ascensceur Tube023
+    100044: Ascensceur Tube024
+    100046: Ascensceur Tube025
+    100048: Ascensceur Tube027
+    100050: Ascensceur Tube028
+    100052: Ascensceur Tube029
+    100054: Ascensceur Tube030
+    100056: Ascensceur Tube031
+    100058: Ascensceur Tube032
+    100060: Ascensceur Tube033
+    100062: Ascensceur Tube034
+    100064: Ascensceur Tube035
+    100066: Ascensceur Tube036
+    100068: Ascensceur Tube037
+    100070: Ascensceur Tube038
+    100072: Ascensceur Tube039
+    100074: Ascensceur Tube040
+    100076: Ascensceur Tube041
+    100078: Ascensceur Tube042
+    100080: Ascensceur Tube043
+    100082: Ascensceur Tube044
+    100084: Ascensceur Tube045
+    100086: Ascensceur Tube046
+    100088: Ascensceur Tube047
+    100090: Ascensceur Tube048
+    100092: Ascensceur Tube049
+    100094: Ascensceur Tube050
+    100096: Ascensceur Tube051
+    100098: Ascensceur Tube052
+    100100: Ascensceur Tube054
+    100102: Ascensceur Tube055
+    100104: Ascensceur Tube056
+    100106: Ascensceur Tube057
+    100108: Ascensceur Tube058
+    100110: Ascensceur Tube059
+    100112: Ascensceur Tube060
+    100114: Ascensceur Tube061
+    100116: Ascensceur Tube062
+    100118: Ascenseur porte001
+    100120: Ascenseur porte002
+    100122: Ascenseur porte003
+    100124: Ascenseur porte004
+    100126: Ascenseur porte005
+    100128: Ascenseur porte006
+    100130: Ascenseur porte007
+    100132: Ascenseur porte008
+    100134: Ascenseur porte009
+    100136: Ascenseur porte010
+    100138: Ascenseur porte011
+    100140: Ascenseur porte012
+    100142: Ascenseur porte013
+    100144: Ascenseur porte014
+    100146: Ascenseur porte015
+    100148: Ascenseur porte016
+    100150: Ascenseur porte017
+    100152: Ascenseur porte018
+    100154: Ascenseur top001
+    100156: Ascenseur top002
+    100158: Ascenseur top003
+    100160: Ascenseur top004
+    100162: Ascenseur top005
+    100164: Ascenseur top006
+    100166: Ascenseur top007
+    100168: Ascenseur top008
+    100170: Box435
+    100172: //RootNode
+    100174: Pont Coin001
+    100176: Pont Coin002
+    100178: Pont Coin003
+    100180: Pont Coin004
+    100182: Pont Coin005
+    100184: Pont Coin006
+    100186: Pont raccord ascenseur001
+    100188: Pont raccord ascenseur003
+    100190: Pont raccord ascenseur004
+    100192: Pont raccord ascenseur005
+    100194: Pont raccord ascenseur006
+    100196: Pont raccord ascenseur007
+    100198: Pont raccord ascenseur008
+    100200: Pont raccord ascenseur009
+    100202: Pont raccord ascenseur010
+    100204: Pont raccord ascenseur011
+    100206: Pont raccord ascenseur012
+    100208: Pont raccord ascenseur013
+    100210: Pont segment
+    100212: Pont segment001
+    100214: Pont segment002
+    100216: Pont segment003
+    100218: Pont segment004
+    100220: Pont segment005
+    100222: Pont segment006
+    100224: Pont segment007
+    100226: Pont segment008
+    100228: Pont segment009
+    100230: Pont segment010
+    100232: Pont segment011
+    100234: Pont segment012
+    100236: Pont segment013
+    100238: Pont segment014
+    100240: Pont segment015
+    100242: Pont segment016
+    100244: Pont segment017
+    100246: Pont segment020
+    100248: Pont segment021
+    100250: Pont segment022
+    100252: Pont segment023
+    100254: Pont segment024
+    100256: Pont segment025
+    100258: Pont segment026
+    100260: Pont segment027
+    100262: Pont segment028
+    100264: Pont segment029
+    100266: Pont segment030
+    100268: Pont segment031
+    100270: Pont segment032
+    100272: Pont segment033
+    100274: Pont segment034
+    100276: Pont segment035
+    100278: Pont segment036
+    100280: Pont segment037
+    100282: Pont segment038
+    100284: Pont segment039
+    100286: Pont segment040
+    100288: Pont segment041
+    100290: Pont segment042
+    100292: Pont segment043
+    100294: Pont segment045
+    100296: Pont segment046
+    100298: Pont segment047
+    100300: Pont segment048
+    100302: Pont segment049
+    100304: Pont segment050
+    100306: Pont segment051
+    100308: Pont segment052
+    100310: Pont segment053
+    100312: Pont segment054
+    100314: Pont segment055
+    100316: Pont segment056
+    100318: Pont segment057
+    100320: Pont segment058
+    100322: Pont segment059
+    100324: Pont segment060
+    100326: Pont segment061
+    100328: Pont segment062
+    100330: Pont segment063
+    100332: Pont segment064
+    100334: Pont segment065
+    100336: Pont segment066
+    100338: Pont segment068
+    100340: Pont segment069
+    100342: Pont segment070
+    100344: Pont segment071
+    100346: Pont segment072
+    100348: Pont segment073
+    100350: Pont segment074
+    100352: Pont segment075
+    100354: Pont segment076
+    100356: Pont segment077
+    100358: Pont segment078
+    100360: Pont segment079
+    100362: Pont segment080
+    100364: Pont segment081
+    100366: Pont segment082
+    100368: Pont segment083
+    100370: Pont segment084
+    100372: Pont segment085
+    100374: Pont segment088
+    100376: Pont segment089
+    100378: Pont segment090
+    100380: Pont segment091
+    100382: Pont segment092
+    100384: Pont segment093
+    100386: Pont segment094
+    100388: Pont segment095
+    100390: Pont segment096
+    100392: Pont segment097
+    100394: Pont segment098
+    100396: Pont segment099
+    100398: Pont segment100
+    100400: Pont T
+    100402: Pont T001
+    100404: Salle B2
+    100406: Salle Braquage 1
+    100408: Salle T3
+    100410: Salle Tram 1
+    100412: Salle TypeTrue002
+    100414: Salle TypeTrue003
+    100416: Salle TypeTrue004
+    400000: Ascensceur Tube001
+    400002: Ascensceur Tube002
+    400004: Ascensceur Tube003
+    400006: Ascensceur Tube004
+    400008: Ascensceur Tube005
+    400010: Ascensceur Tube006
+    400012: Ascensceur Tube007
+    400014: Ascensceur Tube008
+    400016: Ascensceur Tube009
+    400018: Ascensceur Tube010
+    400020: Ascensceur Tube011
+    400022: Ascensceur Tube012
+    400024: Ascensceur Tube013
+    400026: Ascensceur Tube015
+    400028: Ascensceur Tube016
+    400030: Ascensceur Tube017
+    400032: Ascensceur Tube018
+    400034: Ascensceur Tube019
+    400036: Ascensceur Tube020
+    400038: Ascensceur Tube021
+    400040: Ascensceur Tube022
+    400042: Ascensceur Tube023
+    400044: Ascensceur Tube024
+    400046: Ascensceur Tube025
+    400048: Ascensceur Tube027
+    400050: Ascensceur Tube028
+    400052: Ascensceur Tube029
+    400054: Ascensceur Tube030
+    400056: Ascensceur Tube031
+    400058: Ascensceur Tube032
+    400060: Ascensceur Tube033
+    400062: Ascensceur Tube034
+    400064: Ascensceur Tube035
+    400066: Ascensceur Tube036
+    400068: Ascensceur Tube037
+    400070: Ascensceur Tube038
+    400072: Ascensceur Tube039
+    400074: Ascensceur Tube040
+    400076: Ascensceur Tube041
+    400078: Ascensceur Tube042
+    400080: Ascensceur Tube043
+    400082: Ascensceur Tube044
+    400084: Ascensceur Tube045
+    400086: Ascensceur Tube046
+    400088: Ascensceur Tube047
+    400090: Ascensceur Tube048
+    400092: Ascensceur Tube049
+    400094: Ascensceur Tube050
+    400096: Ascensceur Tube051
+    400098: Ascensceur Tube052
+    400100: Ascensceur Tube054
+    400102: Ascensceur Tube055
+    400104: Ascensceur Tube056
+    400106: Ascensceur Tube057
+    400108: Ascensceur Tube058
+    400110: Ascensceur Tube059
+    400112: Ascensceur Tube060
+    400114: Ascensceur Tube061
+    400116: Ascensceur Tube062
+    400118: Ascenseur porte001
+    400120: Ascenseur porte002
+    400122: Ascenseur porte003
+    400124: Ascenseur porte004
+    400126: Ascenseur porte005
+    400128: Ascenseur porte006
+    400130: Ascenseur porte007
+    400132: Ascenseur porte008
+    400134: Ascenseur porte009
+    400136: Ascenseur porte010
+    400138: Ascenseur porte011
+    400140: Ascenseur porte012
+    400142: Ascenseur porte013
+    400144: Ascenseur porte014
+    400146: Ascenseur porte015
+    400148: Ascenseur porte016
+    400150: Ascenseur porte017
+    400152: Ascenseur porte018
+    400154: Ascenseur top001
+    400156: Ascenseur top002
+    400158: Ascenseur top003
+    400160: Ascenseur top004
+    400162: Ascenseur top005
+    400164: Ascenseur top006
+    400166: Ascenseur top007
+    400168: Ascenseur top008
+    400170: Box435
+    400172: //RootNode
+    400174: Pont Coin001
+    400176: Pont Coin002
+    400178: Pont Coin003
+    400180: Pont Coin004
+    400182: Pont Coin005
+    400184: Pont Coin006
+    400186: Pont raccord ascenseur001
+    400188: Pont raccord ascenseur003
+    400190: Pont raccord ascenseur004
+    400192: Pont raccord ascenseur005
+    400194: Pont raccord ascenseur006
+    400196: Pont raccord ascenseur007
+    400198: Pont raccord ascenseur008
+    400200: Pont raccord ascenseur009
+    400202: Pont raccord ascenseur010
+    400204: Pont raccord ascenseur011
+    400206: Pont raccord ascenseur012
+    400208: Pont raccord ascenseur013
+    400210: Pont segment
+    400212: Pont segment001
+    400214: Pont segment002
+    400216: Pont segment003
+    400218: Pont segment004
+    400220: Pont segment005
+    400222: Pont segment006
+    400224: Pont segment007
+    400226: Pont segment008
+    400228: Pont segment009
+    400230: Pont segment010
+    400232: Pont segment011
+    400234: Pont segment012
+    400236: Pont segment013
+    400238: Pont segment014
+    400240: Pont segment015
+    400242: Pont segment016
+    400244: Pont segment017
+    400246: Pont segment020
+    400248: Pont segment021
+    400250: Pont segment022
+    400252: Pont segment023
+    400254: Pont segment024
+    400256: Pont segment025
+    400258: Pont segment026
+    400260: Pont segment027
+    400262: Pont segment028
+    400264: Pont segment029
+    400266: Pont segment030
+    400268: Pont segment031
+    400270: Pont segment032
+    400272: Pont segment033
+    400274: Pont segment034
+    400276: Pont segment035
+    400278: Pont segment036
+    400280: Pont segment037
+    400282: Pont segment038
+    400284: Pont segment039
+    400286: Pont segment040
+    400288: Pont segment041
+    400290: Pont segment042
+    400292: Pont segment043
+    400294: Pont segment045
+    400296: Pont segment046
+    400298: Pont segment047
+    400300: Pont segment048
+    400302: Pont segment049
+    400304: Pont segment050
+    400306: Pont segment051
+    400308: Pont segment052
+    400310: Pont segment053
+    400312: Pont segment054
+    400314: Pont segment055
+    400316: Pont segment056
+    400318: Pont segment057
+    400320: Pont segment058
+    400322: Pont segment059
+    400324: Pont segment060
+    400326: Pont segment061
+    400328: Pont segment062
+    400330: Pont segment063
+    400332: Pont segment064
+    400334: Pont segment065
+    400336: Pont segment066
+    400338: Pont segment068
+    400340: Pont segment069
+    400342: Pont segment070
+    400344: Pont segment071
+    400346: Pont segment072
+    400348: Pont segment073
+    400350: Pont segment074
+    400352: Pont segment075
+    400354: Pont segment076
+    400356: Pont segment077
+    400358: Pont segment078
+    400360: Pont segment079
+    400362: Pont segment080
+    400364: Pont segment081
+    400366: Pont segment082
+    400368: Pont segment083
+    400370: Pont segment084
+    400372: Pont segment085
+    400374: Pont segment088
+    400376: Pont segment089
+    400378: Pont segment090
+    400380: Pont segment091
+    400382: Pont segment092
+    400384: Pont segment093
+    400386: Pont segment094
+    400388: Pont segment095
+    400390: Pont segment096
+    400392: Pont segment097
+    400394: Pont segment098
+    400396: Pont segment099
+    400398: Pont segment100
+    400400: Pont T
+    400402: Pont T001
+    400404: Salle B2
+    400406: Salle Braquage 1
+    400408: Salle T3
+    400410: Salle Tram 1
+    400412: Salle TypeTrue002
+    400414: Salle TypeTrue003
+    400416: Salle TypeTrue004
+    2100000: 02 - Default
+    2100002: 01 - Default
+    2100004: 03 - Default
+    2100006: 'Material #179'
+    2100008: 'Material #701'
+    2100010: 'Material #700'
+    2100012: 'Material #704'
+    2300000: Ascensceur Tube001
+    2300002: Ascensceur Tube002
+    2300004: Ascensceur Tube003
+    2300006: Ascensceur Tube004
+    2300008: Ascensceur Tube005
+    2300010: Ascensceur Tube006
+    2300012: Ascensceur Tube007
+    2300014: Ascensceur Tube008
+    2300016: Ascensceur Tube009
+    2300018: Ascensceur Tube010
+    2300020: Ascensceur Tube011
+    2300022: Ascensceur Tube012
+    2300024: Ascensceur Tube013
+    2300026: Ascensceur Tube015
+    2300028: Ascensceur Tube016
+    2300030: Ascensceur Tube017
+    2300032: Ascensceur Tube018
+    2300034: Ascensceur Tube019
+    2300036: Ascensceur Tube020
+    2300038: Ascensceur Tube021
+    2300040: Ascensceur Tube022
+    2300042: Ascensceur Tube023
+    2300044: Ascensceur Tube024
+    2300046: Ascensceur Tube025
+    2300048: Ascensceur Tube027
+    2300050: Ascensceur Tube028
+    2300052: Ascensceur Tube029
+    2300054: Ascensceur Tube030
+    2300056: Ascensceur Tube031
+    2300058: Ascensceur Tube032
+    2300060: Ascensceur Tube033
+    2300062: Ascensceur Tube034
+    2300064: Ascensceur Tube035
+    2300066: Ascensceur Tube036
+    2300068: Ascensceur Tube037
+    2300070: Ascensceur Tube038
+    2300072: Ascensceur Tube039
+    2300074: Ascensceur Tube040
+    2300076: Ascensceur Tube041
+    2300078: Ascensceur Tube042
+    2300080: Ascensceur Tube043
+    2300082: Ascensceur Tube044
+    2300084: Ascensceur Tube045
+    2300086: Ascensceur Tube046
+    2300088: Ascensceur Tube047
+    2300090: Ascensceur Tube048
+    2300092: Ascensceur Tube049
+    2300094: Ascensceur Tube050
+    2300096: Ascensceur Tube051
+    2300098: Ascensceur Tube052
+    2300100: Ascensceur Tube054
+    2300102: Ascensceur Tube055
+    2300104: Ascensceur Tube056
+    2300106: Ascensceur Tube057
+    2300108: Ascensceur Tube058
+    2300110: Ascensceur Tube059
+    2300112: Ascensceur Tube060
+    2300114: Ascensceur Tube061
+    2300116: Ascensceur Tube062
+    2300118: Ascenseur porte001
+    2300120: Ascenseur porte002
+    2300122: Ascenseur porte003
+    2300124: Ascenseur porte004
+    2300126: Ascenseur porte005
+    2300128: Ascenseur porte006
+    2300130: Ascenseur porte007
+    2300132: Ascenseur porte008
+    2300134: Ascenseur porte009
+    2300136: Ascenseur porte010
+    2300138: Ascenseur porte011
+    2300140: Ascenseur porte012
+    2300142: Ascenseur porte013
+    2300144: Ascenseur porte014
+    2300146: Ascenseur porte015
+    2300148: Ascenseur porte016
+    2300150: Ascenseur porte017
+    2300152: Ascenseur porte018
+    2300154: Ascenseur top001
+    2300156: Ascenseur top002
+    2300158: Ascenseur top003
+    2300160: Ascenseur top004
+    2300162: Ascenseur top005
+    2300164: Ascenseur top006
+    2300166: Ascenseur top007
+    2300168: Ascenseur top008
+    2300170: Box435
+    2300172: Pont Coin001
+    2300174: Pont Coin002
+    2300176: Pont Coin003
+    2300178: Pont Coin004
+    2300180: Pont Coin005
+    2300182: Pont Coin006
+    2300184: Pont raccord ascenseur001
+    2300186: Pont raccord ascenseur003
+    2300188: Pont raccord ascenseur004
+    2300190: Pont raccord ascenseur005
+    2300192: Pont raccord ascenseur006
+    2300194: Pont raccord ascenseur007
+    2300196: Pont raccord ascenseur008
+    2300198: Pont raccord ascenseur009
+    2300200: Pont raccord ascenseur010
+    2300202: Pont raccord ascenseur011
+    2300204: Pont raccord ascenseur012
+    2300206: Pont raccord ascenseur013
+    2300208: Pont segment
+    2300210: Pont segment001
+    2300212: Pont segment002
+    2300214: Pont segment003
+    2300216: Pont segment004
+    2300218: Pont segment005
+    2300220: Pont segment006
+    2300222: Pont segment007
+    2300224: Pont segment008
+    2300226: Pont segment009
+    2300228: Pont segment010
+    2300230: Pont segment011
+    2300232: Pont segment012
+    2300234: Pont segment013
+    2300236: Pont segment014
+    2300238: Pont segment015
+    2300240: Pont segment016
+    2300242: Pont segment017
+    2300244: Pont segment020
+    2300246: Pont segment021
+    2300248: Pont segment022
+    2300250: Pont segment023
+    2300252: Pont segment024
+    2300254: Pont segment025
+    2300256: Pont segment026
+    2300258: Pont segment027
+    2300260: Pont segment028
+    2300262: Pont segment029
+    2300264: Pont segment030
+    2300266: Pont segment031
+    2300268: Pont segment032
+    2300270: Pont segment033
+    2300272: Pont segment034
+    2300274: Pont segment035
+    2300276: Pont segment036
+    2300278: Pont segment037
+    2300280: Pont segment038
+    2300282: Pont segment039
+    2300284: Pont segment040
+    2300286: Pont segment041
+    2300288: Pont segment042
+    2300290: Pont segment043
+    2300292: Pont segment045
+    2300294: Pont segment046
+    2300296: Pont segment047
+    2300298: Pont segment048
+    2300300: Pont segment049
+    2300302: Pont segment050
+    2300304: Pont segment051
+    2300306: Pont segment052
+    2300308: Pont segment053
+    2300310: Pont segment054
+    2300312: Pont segment055
+    2300314: Pont segment056
+    2300316: Pont segment057
+    2300318: Pont segment058
+    2300320: Pont segment059
+    2300322: Pont segment060
+    2300324: Pont segment061
+    2300326: Pont segment062
+    2300328: Pont segment063
+    2300330: Pont segment064
+    2300332: Pont segment065
+    2300334: Pont segment066
+    2300336: Pont segment068
+    2300338: Pont segment069
+    2300340: Pont segment070
+    2300342: Pont segment071
+    2300344: Pont segment072
+    2300346: Pont segment073
+    2300348: Pont segment074
+    2300350: Pont segment075
+    2300352: Pont segment076
+    2300354: Pont segment077
+    2300356: Pont segment078
+    2300358: Pont segment079
+    2300360: Pont segment080
+    2300362: Pont segment081
+    2300364: Pont segment082
+    2300366: Pont segment083
+    2300368: Pont segment084
+    2300370: Pont segment085
+    2300372: Pont segment088
+    2300374: Pont segment089
+    2300376: Pont segment090
+    2300378: Pont segment091
+    2300380: Pont segment092
+    2300382: Pont segment093
+    2300384: Pont segment094
+    2300386: Pont segment095
+    2300388: Pont segment096
+    2300390: Pont segment097
+    2300392: Pont segment098
+    2300394: Pont segment099
+    2300396: Pont segment100
+    2300398: Pont T
+    2300400: Pont T001
+    2300402: Salle B2
+    2300404: Salle Braquage 1
+    2300406: Salle T3
+    2300408: Salle Tram 1
+    2300410: Salle TypeTrue002
+    2300412: Salle TypeTrue003
+    2300414: Salle TypeTrue004
+    3300000: Ascensceur Tube001
+    3300002: Ascensceur Tube002
+    3300004: Ascensceur Tube003
+    3300006: Ascensceur Tube004
+    3300008: Ascensceur Tube005
+    3300010: Ascensceur Tube006
+    3300012: Ascensceur Tube007
+    3300014: Ascensceur Tube008
+    3300016: Ascensceur Tube009
+    3300018: Ascensceur Tube010
+    3300020: Ascensceur Tube011
+    3300022: Ascensceur Tube012
+    3300024: Ascensceur Tube013
+    3300026: Ascensceur Tube015
+    3300028: Ascensceur Tube016
+    3300030: Ascensceur Tube017
+    3300032: Ascensceur Tube018
+    3300034: Ascensceur Tube019
+    3300036: Ascensceur Tube020
+    3300038: Ascensceur Tube021
+    3300040: Ascensceur Tube022
+    3300042: Ascensceur Tube023
+    3300044: Ascensceur Tube024
+    3300046: Ascensceur Tube025
+    3300048: Ascensceur Tube027
+    3300050: Ascensceur Tube028
+    3300052: Ascensceur Tube029
+    3300054: Ascensceur Tube030
+    3300056: Ascensceur Tube031
+    3300058: Ascensceur Tube032
+    3300060: Ascensceur Tube033
+    3300062: Ascensceur Tube034
+    3300064: Ascensceur Tube035
+    3300066: Ascensceur Tube036
+    3300068: Ascensceur Tube037
+    3300070: Ascensceur Tube038
+    3300072: Ascensceur Tube039
+    3300074: Ascensceur Tube040
+    3300076: Ascensceur Tube041
+    3300078: Ascensceur Tube042
+    3300080: Ascensceur Tube043
+    3300082: Ascensceur Tube044
+    3300084: Ascensceur Tube045
+    3300086: Ascensceur Tube046
+    3300088: Ascensceur Tube047
+    3300090: Ascensceur Tube048
+    3300092: Ascensceur Tube049
+    3300094: Ascensceur Tube050
+    3300096: Ascensceur Tube051
+    3300098: Ascensceur Tube052
+    3300100: Ascensceur Tube054
+    3300102: Ascensceur Tube055
+    3300104: Ascensceur Tube056
+    3300106: Ascensceur Tube057
+    3300108: Ascensceur Tube058
+    3300110: Ascensceur Tube059
+    3300112: Ascensceur Tube060
+    3300114: Ascensceur Tube061
+    3300116: Ascensceur Tube062
+    3300118: Ascenseur porte001
+    3300120: Ascenseur porte002
+    3300122: Ascenseur porte003
+    3300124: Ascenseur porte004
+    3300126: Ascenseur porte005
+    3300128: Ascenseur porte006
+    3300130: Ascenseur porte007
+    3300132: Ascenseur porte008
+    3300134: Ascenseur porte009
+    3300136: Ascenseur porte010
+    3300138: Ascenseur porte011
+    3300140: Ascenseur porte012
+    3300142: Ascenseur porte013
+    3300144: Ascenseur porte014
+    3300146: Ascenseur porte015
+    3300148: Ascenseur porte016
+    3300150: Ascenseur porte017
+    3300152: Ascenseur porte018
+    3300154: Ascenseur top001
+    3300156: Ascenseur top002
+    3300158: Ascenseur top003
+    3300160: Ascenseur top004
+    3300162: Ascenseur top005
+    3300164: Ascenseur top006
+    3300166: Ascenseur top007
+    3300168: Ascenseur top008
+    3300170: Box435
+    3300172: Pont Coin001
+    3300174: Pont Coin002
+    3300176: Pont Coin003
+    3300178: Pont Coin004
+    3300180: Pont Coin005
+    3300182: Pont Coin006
+    3300184: Pont raccord ascenseur001
+    3300186: Pont raccord ascenseur003
+    3300188: Pont raccord ascenseur004
+    3300190: Pont raccord ascenseur005
+    3300192: Pont raccord ascenseur006
+    3300194: Pont raccord ascenseur007
+    3300196: Pont raccord ascenseur008
+    3300198: Pont raccord ascenseur009
+    3300200: Pont raccord ascenseur010
+    3300202: Pont raccord ascenseur011
+    3300204: Pont raccord ascenseur012
+    3300206: Pont raccord ascenseur013
+    3300208: Pont segment
+    3300210: Pont segment001
+    3300212: Pont segment002
+    3300214: Pont segment003
+    3300216: Pont segment004
+    3300218: Pont segment005
+    3300220: Pont segment006
+    3300222: Pont segment007
+    3300224: Pont segment008
+    3300226: Pont segment009
+    3300228: Pont segment010
+    3300230: Pont segment011
+    3300232: Pont segment012
+    3300234: Pont segment013
+    3300236: Pont segment014
+    3300238: Pont segment015
+    3300240: Pont segment016
+    3300242: Pont segment017
+    3300244: Pont segment020
+    3300246: Pont segment021
+    3300248: Pont segment022
+    3300250: Pont segment023
+    3300252: Pont segment024
+    3300254: Pont segment025
+    3300256: Pont segment026
+    3300258: Pont segment027
+    3300260: Pont segment028
+    3300262: Pont segment029
+    3300264: Pont segment030
+    3300266: Pont segment031
+    3300268: Pont segment032
+    3300270: Pont segment033
+    3300272: Pont segment034
+    3300274: Pont segment035
+    3300276: Pont segment036
+    3300278: Pont segment037
+    3300280: Pont segment038
+    3300282: Pont segment039
+    3300284: Pont segment040
+    3300286: Pont segment041
+    3300288: Pont segment042
+    3300290: Pont segment043
+    3300292: Pont segment045
+    3300294: Pont segment046
+    3300296: Pont segment047
+    3300298: Pont segment048
+    3300300: Pont segment049
+    3300302: Pont segment050
+    3300304: Pont segment051
+    3300306: Pont segment052
+    3300308: Pont segment053
+    3300310: Pont segment054
+    3300312: Pont segment055
+    3300314: Pont segment056
+    3300316: Pont segment057
+    3300318: Pont segment058
+    3300320: Pont segment059
+    3300322: Pont segment060
+    3300324: Pont segment061
+    3300326: Pont segment062
+    3300328: Pont segment063
+    3300330: Pont segment064
+    3300332: Pont segment065
+    3300334: Pont segment066
+    3300336: Pont segment068
+    3300338: Pont segment069
+    3300340: Pont segment070
+    3300342: Pont segment071
+    3300344: Pont segment072
+    3300346: Pont segment073
+    3300348: Pont segment074
+    3300350: Pont segment075
+    3300352: Pont segment076
+    3300354: Pont segment077
+    3300356: Pont segment078
+    3300358: Pont segment079
+    3300360: Pont segment080
+    3300362: Pont segment081
+    3300364: Pont segment082
+    3300366: Pont segment083
+    3300368: Pont segment084
+    3300370: Pont segment085
+    3300372: Pont segment088
+    3300374: Pont segment089
+    3300376: Pont segment090
+    3300378: Pont segment091
+    3300380: Pont segment092
+    3300382: Pont segment093
+    3300384: Pont segment094
+    3300386: Pont segment095
+    3300388: Pont segment096
+    3300390: Pont segment097
+    3300392: Pont segment098
+    3300394: Pont segment099
+    3300396: Pont segment100
+    3300398: Pont T
+    3300400: Pont T001
+    3300402: Salle B2
+    3300404: Salle Braquage 1
+    3300406: Salle T3
+    3300408: Salle Tram 1
+    3300410: Salle TypeTrue002
+    3300412: Salle TypeTrue003
+    3300414: Salle TypeTrue004
+    4300000: Pont segment
+    4300002: Pont T
+    4300004: Salle Braquage 1
+    4300006: Pont segment001
+    4300008: Salle Tram 1
+    4300010: Ascenseur porte001
+    4300012: Pont segment002
+    4300014: Ascensceur Tube001
+    4300016: Ascensceur Tube002
+    4300018: Ascenseur porte002
+    4300020: Ascenseur top001
+    4300022: Ascensceur Tube003
+    4300024: Salle B2
+    4300026: Ascenseur porte003
+    4300028: Ascenseur porte004
+    4300030: Ascensceur Tube004
+    4300032: Ascenseur top002
+    4300034: Ascensceur Tube005
+    4300036: Ascenseur porte005
+    4300038: Ascensceur Tube006
+    4300040: Pont raccord ascenseur001
+    4300042: Salle T3
+    4300044: Ascensceur Tube007
+    4300046: Ascensceur Tube008
+    4300048: Ascensceur Tube009
+    4300050: Ascenseur porte006
+    4300052: Pont raccord ascenseur003
+    4300054: Salle TypeTrue002
+    4300056: Ascenseur porte007
+    4300058: Ascenseur top003
+    4300060: Ascenseur porte008
+    4300062: Pont segment003
+    4300064: Pont raccord ascenseur004
+    4300066: Ascenseur porte009
+    4300068: Ascensceur Tube010
+    4300070: Ascensceur Tube011
+    4300072: Ascensceur Tube012
+    4300074: Ascensceur Tube013
+    4300076: Ascenseur porte010
+    4300078: Pont raccord ascenseur005
+    4300080: Pont segment004
+    4300082: Pont T001
+    4300084: Pont segment005
+    4300086: Pont segment006
+    4300088: Salle TypeTrue003
+    4300090: Pont Coin001
+    4300092: Pont segment007
+    4300094: Pont segment008
+    4300096: Pont segment009
+    4300098: Pont segment010
+    4300100: Pont segment011
+    4300102: Pont segment012
+    4300104: Pont segment013
+    4300106: Pont Coin002
+    4300108: Pont segment014
+    4300110: Pont segment015
+    4300112: Pont segment016
+    4300114: Pont segment017
+    4300116: Pont segment020
+    4300118: Pont segment021
+    4300120: Pont segment022
+    4300122: Pont segment023
+    4300124: Pont raccord ascenseur006
+    4300126: Ascensceur Tube015
+    4300128: Ascensceur Tube016
+    4300130: Ascensceur Tube017
+    4300132: Ascensceur Tube018
+    4300134: Ascensceur Tube019
+    4300136: Ascensceur Tube020
+    4300138: Ascensceur Tube021
+    4300140: Ascensceur Tube022
+    4300142: Ascensceur Tube023
+    4300144: Ascensceur Tube024
+    4300146: Ascensceur Tube025
+    4300148: Pont raccord ascenseur007
+    4300150: Pont segment024
+    4300152: Pont segment025
+    4300154: Pont segment026
+    4300156: Pont segment027
+    4300158: Pont segment028
+    4300160: Pont segment029
+    4300162: Pont segment030
+    4300164: Pont segment031
+    4300166: Pont segment032
+    4300168: Pont segment033
+    4300170: Pont segment034
+    4300172: Pont segment035
+    4300174: Pont segment036
+    4300176: Pont segment037
+    4300178: Pont segment038
+    4300180: Pont segment039
+    4300182: Pont segment040
+    4300184: Pont segment041
+    4300186: Pont segment042
+    4300188: Pont segment043
+    4300190: Ascenseur top004
+    4300192: Ascensceur Tube027
+    4300194: Ascensceur Tube028
+    4300196: Ascensceur Tube029
+    4300198: Ascensceur Tube030
+    4300200: Ascensceur Tube031
+    4300202: Ascensceur Tube032
+    4300204: Ascenseur porte011
+    4300206: Ascenseur porte012
+    4300208: Ascenseur porte013
+    4300210: Pont raccord ascenseur008
+    4300212: Pont segment045
+    4300214: Pont segment046
+    4300216: Pont segment047
+    4300218: Pont segment048
+    4300220: Pont segment049
+    4300222: Pont segment050
+    4300224: Pont Coin003
+    4300226: Pont Coin004
+    4300228: Pont segment051
+    4300230: Pont segment052
+    4300232: Pont segment053
+    4300234: Pont segment054
+    4300236: Pont segment055
+    4300238: Pont segment056
+    4300240: Pont segment057
+    4300242: Pont segment058
+    4300244: Pont segment059
+    4300246: Pont segment060
+    4300248: Pont segment061
+    4300250: Pont segment062
+    4300252: Pont segment063
+    4300254: Pont segment064
+    4300256: Pont segment065
+    4300258: Ascensceur Tube033
+    4300260: Ascensceur Tube034
+    4300262: Ascensceur Tube035
+    4300264: Ascenseur porte014
+    4300266: Pont Coin005
+    4300268: Pont raccord ascenseur009
+    4300270: Pont segment066
+    4300272: Ascenseur top005
+    4300274: Ascenseur top006
+    4300276: Ascensceur Tube036
+    4300278: Ascensceur Tube037
+    4300280: Ascensceur Tube038
+    4300282: Ascensceur Tube039
+    4300284: Ascensceur Tube040
+    4300286: Ascensceur Tube041
+    4300288: Ascensceur Tube042
+    4300290: Ascensceur Tube043
+    4300292: Pont segment068
+    4300294: Pont segment069
+    4300296: Pont segment070
+    4300298: Pont segment071
+    4300300: Pont raccord ascenseur010
+    4300302: Ascenseur porte015
+    4300304: Ascensceur Tube044
+    4300306: Ascensceur Tube045
+    4300308: Ascensceur Tube046
+    4300310: Ascensceur Tube047
+    4300312: Ascensceur Tube048
+    4300314: Ascensceur Tube049
+    4300316: Ascensceur Tube050
+    4300318: Ascenseur porte016
+    4300320: Pont raccord ascenseur011
+    4300322: Pont segment072
+    4300324: Pont segment073
+    4300326: Pont segment074
+    4300328: Pont segment075
+    4300330: Pont segment076
+    4300332: Pont segment077
+    4300334: Pont segment078
+    4300336: Pont segment079
+    4300338: Pont segment080
+    4300340: Pont segment081
+    4300342: Pont segment082
+    4300344: Pont segment083
+    4300346: Pont segment084
+    4300348: Pont segment085
+    4300350: Pont segment088
+    4300352: Pont raccord ascenseur012
+    4300354: Ascensceur Tube051
+    4300356: Ascensceur Tube052
+    4300358: Ascenseur porte017
+    4300360: Ascensceur Tube054
+    4300362: Ascensceur Tube055
+    4300364: Ascensceur Tube056
+    4300366: Ascensceur Tube057
+    4300368: Ascensceur Tube058
+    4300370: Ascensceur Tube059
+    4300372: Ascensceur Tube060
+    4300374: Ascensceur Tube061
+    4300376: Ascensceur Tube062
+    4300378: Ascenseur porte018
+    4300380: Pont raccord ascenseur013
+    4300382: Pont segment089
+    4300384: Pont segment090
+    4300386: Pont segment091
+    4300388: Pont segment092
+    4300390: Pont segment093
+    4300392: Pont segment094
+    4300394: Pont segment095
+    4300396: Pont segment096
+    4300398: Pont segment097
+    4300400: Pont Coin006
+    4300402: Ascenseur top007
+    4300404: Ascenseur top008
+    4300406: Box435
+    4300408: Pont segment098
+    4300410: Pont segment099
+    4300412: Salle TypeTrue004
+    4300414: Pont segment100
+    9500000: //RootNode
+  externalObjects: {}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

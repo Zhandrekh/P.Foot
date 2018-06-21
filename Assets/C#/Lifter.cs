@@ -31,11 +31,13 @@ public class Lifter : MonoBehaviour {
     public void GoUp()
     {
         targetPosition = targetUp.position;
+        Debug.Log("UP");
     }    
 
     public void GoDown()
     {
         targetPosition = targetDown.position;
+        Debug.Log("Down");
     }
 
 }

@@ -77,10 +77,10 @@ MonoBehaviour:
       useCameraFov: 1
       kernelSize: 1
   motionBlur:
-    m_Enabled: 1
+    m_Enabled: 0
     m_Settings:
-      shutterAngle: 270
-      sampleCount: 10
+      shutterAngle: 96
+      sampleCount: 4
       frameBlending: 0.49
   eyeAdaptation:
     m_Enabled: 0

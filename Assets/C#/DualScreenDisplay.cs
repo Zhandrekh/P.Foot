@@ -9,6 +9,7 @@ public class DualScreenDisplay : MonoBehaviour {
     public float timer;
     float _timer;
     public Text timerText;
+    public Text timerText2;
 
     int k = 0;
 
@@ -35,13 +36,95 @@ public class DualScreenDisplay : MonoBehaviour {
     public Sprite GA;
     public Sprite GB;
 
+    Sprite A;
+    Sprite B;
+
+    public SpriteRenderer screenA;
+    public SpriteRenderer screenB;
+
     // Use this for initialization
     void Start () {
-		
+        A = AA;
+        B = AB;
+        _timer = timer;
 	}
-	
-	// Update is called once per frame
-	void Update () {
-		
-	}
+
+    void Update()
+    {
+        screenA.sprite = A;
+        screenB.sprite = B;
+        if (startTimer)
+        {
+            if (A == null)
+                A = AA;
+
+            timer -= Time.deltaTime;
+            timerText.text = "" + timer;
+            timerText2.text = "" + timer;
+            if (timer <= 0)
+            {
+                TimerEnd();
+            }
+        }
+
+        if (k == 1)
+        {
+            A = AA;
+            B = AB;
+        }
+        else if (k == 2)
+        {
+            A = BA;
+            B = BB;
+        }
+        else if (k == 3)
+        {
+            A = CA;
+            B = CB;
+        }
+        else if (k == 4)
+        {
+            A = CA;
+            B = CB;
+        }
+        else if (k == 5)
+        {
+            A = DA;
+            B = DB;
+        }
+        else if (k == 6)
+        {
+            A = EA;
+            B = EB;
+        }
+        else if (k == 7)
+        {
+            A = FA;
+            B = FB;
+        }
+
+        if (k > 7)
+        {
+            startTimer = false;
+            A = null;
+            B = null;
+        }
+        
+    }
+
+    void TimerEnd()
+    {
+        k++;
+        timer = _timer;
+    }
+
+    public void StartTimer()
+    {
+        startTimer = true;
+    }
+
+    public void ButtonSelect()
+    {
+        TimerEnd();
+    }
 }

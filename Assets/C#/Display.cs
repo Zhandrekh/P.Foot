@@ -5,8 +5,7 @@ using UnityEngine.UI;
 [RequireComponent(typeof(SpriteRenderer))]
 public class Display : MonoBehaviour {
 
-    public bool screenA;
-    public bool screenB;
+    
     public bool startTimer;
     public float timer;
     float _timer;
@@ -47,22 +46,8 @@ public class Display : MonoBehaviour {
 	
 
 	void Start () {
-        screen = GetComponent<SpriteRenderer>();
-        if (screenA)
-        {
-            screen.sprite = A;
-            B = null;
-        }
-        else if(screenB)
-        {
-            screen.sprite = B;
-            A = null;
-        }
-        else
-        {
-            screen.sprite = A;
-        }
-        
+        screen = GetComponent<SpriteRenderer>();        
+        screen.sprite = A;              
         _timer = timer;
 	}
 	
@@ -70,10 +55,9 @@ public class Display : MonoBehaviour {
 	void Update () {
         if (startTimer)
         {
-            if (A == null && !screenB)
+            if (A == null )
                 A = AA;
-            if (B == null && !screenA)
-                B = AB;
+            
             timer -= Time.deltaTime;
             timerText.text = "" + timer;
             if (timer <= 0)
@@ -123,7 +107,12 @@ public class Display : MonoBehaviour {
             B = GB;
         }
 
-
+        if (k > 8)
+        {
+            startTimer = false;
+            A = null;
+            B = null;
+        }
     }
 
     void TimerEnd()

@@ -5,11 +5,13 @@ using UnityEngine.UI;
 [RequireComponent(typeof(SpriteRenderer))]
 public class Display : MonoBehaviour {
 
+    public bool screenA;
+    public bool screenB;
     public bool startTimer;
     public float timer;
     float _timer;
     public Text timerText;
-    [SerializeField]
+    
     int k = 0;
 
     [Header("Sprite")]
@@ -46,7 +48,21 @@ public class Display : MonoBehaviour {
 
 	void Start () {
         screen = GetComponent<SpriteRenderer>();
-        screen.sprite = A;
+        if (screenA)
+        {
+            screen.sprite = A;
+            B = null;
+        }
+        else if(screenB)
+        {
+            screen.sprite = B;
+            A = null;
+        }
+        else
+        {
+            screen.sprite = A;
+        }
+        
         _timer = timer;
 	}
 	
@@ -54,8 +70,10 @@ public class Display : MonoBehaviour {
 	void Update () {
         if (startTimer)
         {
-            if (A == null)
+            if (A == null && !screenB)
                 A = AA;
+            if (B == null && !screenA)
+                B = AB;
             timer -= Time.deltaTime;
             timerText.text = "" + timer;
             if (timer <= 0)
@@ -127,5 +145,10 @@ public class Display : MonoBehaviour {
     public void SwitchToB()
     {
         screen.sprite = B;
+    }
+
+    public void ButtonSelect()
+    {
+        TimerEnd();
     }
 }

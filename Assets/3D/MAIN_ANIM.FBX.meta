@@ -1,0 +1,186 @@
+fileFormatVersion: 2
+guid: 3481b54c8736969449262f1c901c8955
+timeCreated: 1530197050
+licenseType: Free
+ModelImporter:
+  serializedVersion: 22
+  fileIDToRecycleName:
+    100000: B anulaire 1 D
+    100002: B anulaire 2 D
+    100004: B anulaire 3 D
+    100006: B index 1 D
+    100008: B index 2 D
+    100010: B index 3 D
+    100012: B majeur 1 D
+    100014: B majeur 2 D
+    100016: B majeur 3 D
+    100018: B oritulaire 1 D
+    100020: B oritulaire 2 D
+    100022: B oritulaire 23D
+    100024: B paume anulaire D
+    100026: B paume index D
+    100028: B paume majeur D
+    100030: B paume oritulaire D
+    100032: B pouce 1 D
+    100034: B pouce 2 D
+    100036: B pouce 3 D
+    100038: C anulaire D
+    100040: C index D
+    100042: C main D
+    100044: C majeur D
+    100046: C oritulaire D
+    100048: C pouce D
+    100050: //RootNode
+    100052: msh_hand
+    100054: ZERO B pouce 1 D
+    100056: ZEROB anulaire 1 D
+    100058: ZEROB anulaire 2 D
+    100060: ZEROB anulaire 3 D
+    100062: ZEROB index 1 D
+    100064: ZEROB index 2 D
+    100066: ZEROB index 3 D
+    100068: ZEROB majeur 1 D
+    100070: ZEROB majeur 2 D
+    100072: ZEROB majeur 3 D
+    100074: ZEROB oritulaire 1 D
+    100076: ZEROB oritulaire 2 D
+    100078: ZEROB oritulaire 3 D
+    100080: ZEROB paume anulaire D
+    100082: ZEROB paume index D
+    100084: ZEROB paume majeur D
+    100086: ZEROB paume oritulaire D
+    100088: ZEROB pouce 1 D
+    100090: ZEROB pouce 2 D
+    100092: ZEROB pouce 3 D
+    400000: B anulaire 1 D
+    400002: B anulaire 2 D
+    400004: B anulaire 3 D
+    400006: B index 1 D
+    400008: B index 2 D
+    400010: B index 3 D
+    400012: B majeur 1 D
+    400014: B majeur 2 D
+    400016: B majeur 3 D
+    400018: B oritulaire 1 D
+    400020: B oritulaire 2 D
+    400022: B oritulaire 23D
+    400024: B paume anulaire D
+    400026: B paume index D
+    400028: B paume majeur D
+    400030: B paume oritulaire D
+    400032: B pouce 1 D
+    400034: B pouce 2 D
+    400036: B pouce 3 D
+    400038: C anulaire D
+    400040: C index D
+    400042: C main D
+    400044: C majeur D
+    400046: C oritulaire D
+    400048: C pouce D
+    400050: //RootNode
+    400052: msh_hand
+    400054: ZERO B pouce 1 D
+    400056: ZEROB anulaire 1 D
+    400058: ZEROB anulaire 2 D
+    400060: ZEROB anulaire 3 D
+    400062: ZEROB index 1 D
+    400064: ZEROB index 2 D
+    400066: ZEROB index 3 D
+    400068: ZEROB majeur 1 D
+    400070: ZEROB majeur 2 D
+    400072: ZEROB majeur 3 D
+    400074: ZEROB oritulaire 1 D
+    400076: ZEROB oritulaire 2 D
+    400078: ZEROB oritulaire 3 D
+    400080: ZEROB paume anulaire D
+    400082: ZEROB paume index D
+    400084: ZEROB paume majeur D
+    400086: ZEROB paume oritulaire D
+    400088: ZEROB pouce 1 D
+    400090: ZEROB pouce 2 D
+    400092: ZEROB pouce 3 D
+    2100000: No Name
+    4300000: msh_hand
+    7400000: Take 001
+    9500000: //RootNode
+    13700000: msh_hand
+  externalObjects: {}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 0
+    importLights: 0
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 0
+    normalCalculationMode: 4
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

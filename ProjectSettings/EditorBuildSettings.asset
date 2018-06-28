@@ -8,3 +8,6 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Lab.unity
     guid: 89eaad8d989e3fc4fbd7244c6d659035
+  - enabled: 0
+    path: Assets/Scenes/Main.unity
+    guid: 9b8cec6fc69179849836653eff983aca
